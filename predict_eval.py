@@ -1,7 +1,7 @@
 
 
 infer_res = 'output/test_results.tsv'
-test_file = './data/test.csv'
+test_file = './dataset/test.csv'
 
 def inference(infer_res, test_file):
 	with open(infer_res) as f:
