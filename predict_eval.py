@@ -9,6 +9,7 @@ def inference(infer_res, test_file):
 		res = [x.split() for x in res]
 	score = []
 	for r in res:
+		r = [float(x) for x in r]
 		zero_pred, one_pred = enumerate(r)
 		if zero_pred[1] > one_pred[1]:
 			score.append(float(0))
