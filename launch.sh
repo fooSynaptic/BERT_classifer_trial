@@ -4,7 +4,7 @@
 # IMPORTANT: Update the paths below to match your environment before running
 
 # Configuration
-export BERT_BASE_DIR=/data2/sda/jiaxin_hu/bert/pre_trained_model/chinese_L-12_H-768_A-12
+export BERT_BASE_DIR=/data2/sda/jiajia/bert/pre_trained_model/chinese_L-12_H-768_A-12
 export MY_DATASET=./dataset
 export OUT_DIR=./output
 
